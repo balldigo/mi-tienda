@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Trazos - Lápices y Plumas Artesanales</title>
+    <!-- Vinculamos el archivo CSS que está dentro de la carpeta css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mis Trazos Artesanales</h1>
+        <p>Lápices y plumas hechos a mano con amor.</p>
+    </header>
+
+    <main>
+        <section class="productos">
+            <!-- Producto 1 -->
+            <div class="producto-tarjeta">
+                <img src="fotos/lapiz-madera.jpg" alt="Lápiz de madera tallado">
+                <h3>Lápiz de Madera de Nogal</h3>
+                <p>Hecho a mano, ideal para dibujo técnico.</p>
+                <span class="precio">$15.00</span>
+                <button onclick="agregarAlCarrito('Lápiz de Nogal')">Agregar al carrito</button>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="producto-tarjeta">
+                <img src="fotos/pluma-elegante.jpg" alt="Pluma estilográfica de resina">
+                <h3>Pluma Estilográfica Resina Azul</h3>
+                <p>Pluma elegante con acabados metálicos.</p>
+                <span class="precio">$35.00</span>
+                <button onclick="agregarAlCarrito('Pluma Azul')">Agregar al carrito</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Vinculamos el archivo JS que está dentro de la carpeta js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
